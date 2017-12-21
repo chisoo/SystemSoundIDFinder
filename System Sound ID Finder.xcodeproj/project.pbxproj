@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		379B85A11FEC7022005A87DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B85A01FEC7022005A87DB /* AppDelegate.swift */; };
+		379B85A31FEC7022005A87DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B85A21FEC7022005A87DB /* ViewController.swift */; };
+		379B85A61FEC7022005A87DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379B85A41FEC7022005A87DB /* Main.storyboard */; };
+		379B85A81FEC7022005A87DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379B85A71FEC7022005A87DB /* Assets.xcassets */; };
+		379B85AB1FEC7022005A87DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379B85A91FEC7022005A87DB /* LaunchScreen.storyboard */; };
+		379B85B61FEC7022005A87DB /* System_Sound_ID_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B85B51FEC7022005A87DB /* System_Sound_ID_FinderTests.swift */; };
+		379B85C11FEC7022005A87DB /* System_Sound_ID_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379B85C01FEC7022005A87DB /* System_Sound_ID_FinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		379B85B21FEC7022005A87DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379B85951FEC7022005A87DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379B859C1FEC7022005A87DB;
+			remoteInfo = "System Sound ID Finder";
+		};
+		379B85BD1FEC7022005A87DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379B85951FEC7022005A87DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 379B859C1FEC7022005A87DB;
+			remoteInfo = "System Sound ID Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		379B859D1FEC7022005A87DB /* System Sound ID Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "System Sound ID Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379B85A01FEC7022005A87DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		379B85A21FEC7022005A87DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		379B85A51FEC7022005A87DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		379B85A71FEC7022005A87DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		379B85AA1FEC7022005A87DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		379B85AC1FEC7022005A87DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379B85B11FEC7022005A87DB /* System Sound ID FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "System Sound ID FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379B85B51FEC7022005A87DB /* System_Sound_ID_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System_Sound_ID_FinderTests.swift; sourceTree = "<group>"; };
+		379B85B71FEC7022005A87DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379B85BC1FEC7022005A87DB /* System Sound ID FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "System Sound ID FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		379B85C01FEC7022005A87DB /* System_Sound_ID_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System_Sound_ID_FinderUITests.swift; sourceTree = "<group>"; };
+		379B85C21FEC7022005A87DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379B859A1FEC7022005A87DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379B85AE1FEC7022005A87DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379B85B91FEC7022005A87DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		379B85941FEC7022005A87DB = {
+			isa = PBXGroup;
+			children = (
+				379B859F1FEC7022005A87DB /* System Sound ID Finder */,
+				379B85B41FEC7022005A87DB /* System Sound ID FinderTests */,
+				379B85BF1FEC7022005A87DB /* System Sound ID FinderUITests */,
+				379B859E1FEC7022005A87DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		379B859E1FEC7022005A87DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				379B859D1FEC7022005A87DB /* System Sound ID Finder.app */,
+				379B85B11FEC7022005A87DB /* System Sound ID FinderTests.xctest */,
+				379B85BC1FEC7022005A87DB /* System Sound ID FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		379B859F1FEC7022005A87DB /* System Sound ID Finder */ = {
+			isa = PBXGroup;
+			children = (
+				379B85A01FEC7022005A87DB /* AppDelegate.swift */,
+				379B85A21FEC7022005A87DB /* ViewController.swift */,
+				379B85A41FEC7022005A87DB /* Main.storyboard */,
+				379B85A71FEC7022005A87DB /* Assets.xcassets */,
+				379B85A91FEC7022005A87DB /* LaunchScreen.storyboard */,
+				379B85AC1FEC7022005A87DB /* Info.plist */,
+			);
+			path = "System Sound ID Finder";
+			sourceTree = "<group>";
+		};
+		379B85B41FEC7022005A87DB /* System Sound ID FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				379B85B51FEC7022005A87DB /* System_Sound_ID_FinderTests.swift */,
+				379B85B71FEC7022005A87DB /* Info.plist */,
+			);
+			path = "System Sound ID FinderTests";
+			sourceTree = "<group>";
+		};
+		379B85BF1FEC7022005A87DB /* System Sound ID FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				379B85C01FEC7022005A87DB /* System_Sound_ID_FinderUITests.swift */,
+				379B85C21FEC7022005A87DB /* Info.plist */,
+			);
+			path = "System Sound ID FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		379B859C1FEC7022005A87DB /* System Sound ID Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379B85C51FEC7022005A87DB /* Build configuration list for PBXNativeTarget "System Sound ID Finder" */;
+			buildPhases = (
+				379B85991FEC7022005A87DB /* Sources */,
+				379B859A1FEC7022005A87DB /* Frameworks */,
+				379B859B1FEC7022005A87DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "System Sound ID Finder";
+			productName = "System Sound ID Finder";
+			productReference = 379B859D1FEC7022005A87DB /* System Sound ID Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		379B85B01FEC7022005A87DB /* System Sound ID FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379B85C81FEC7022005A87DB /* Build configuration list for PBXNativeTarget "System Sound ID FinderTests" */;
+			buildPhases = (
+				379B85AD1FEC7022005A87DB /* Sources */,
+				379B85AE1FEC7022005A87DB /* Frameworks */,
+				379B85AF1FEC7022005A87DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379B85B31FEC7022005A87DB /* PBXTargetDependency */,
+			);
+			name = "System Sound ID FinderTests";
+			productName = "System Sound ID FinderTests";
+			productReference = 379B85B11FEC7022005A87DB /* System Sound ID FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		379B85BB1FEC7022005A87DB /* System Sound ID FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379B85CB1FEC7022005A87DB /* Build configuration list for PBXNativeTarget "System Sound ID FinderUITests" */;
+			buildPhases = (
+				379B85B81FEC7022005A87DB /* Sources */,
+				379B85B91FEC7022005A87DB /* Frameworks */,
+				379B85BA1FEC7022005A87DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379B85BE1FEC7022005A87DB /* PBXTargetDependency */,
+			);
+			name = "System Sound ID FinderUITests";
+			productName = "System Sound ID FinderUITests";
+			productReference = 379B85BC1FEC7022005A87DB /* System Sound ID FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379B85951FEC7022005A87DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Chisoo Kim";
+				TargetAttributes = {
+					379B859C1FEC7022005A87DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					379B85B01FEC7022005A87DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 379B859C1FEC7022005A87DB;
+					};
+					379B85BB1FEC7022005A87DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 379B859C1FEC7022005A87DB;
+					};
+				};
+			};
+			buildConfigurationList = 379B85981FEC7022005A87DB /* Build configuration list for PBXProject "System Sound ID Finder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 379B85941FEC7022005A87DB;
+			productRefGroup = 379B859E1FEC7022005A87DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				379B859C1FEC7022005A87DB /* System Sound ID Finder */,
+				379B85B01FEC7022005A87DB /* System Sound ID FinderTests */,
+				379B85BB1FEC7022005A87DB /* System Sound ID FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379B859B1FEC7022005A87DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379B85AB1FEC7022005A87DB /* LaunchScreen.storyboard in Resources */,
+				379B85A81FEC7022005A87DB /* Assets.xcassets in Resources */,
+				379B85A61FEC7022005A87DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379B85AF1FEC7022005A87DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379B85BA1FEC7022005A87DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		379B85991FEC7022005A87DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379B85A31FEC7022005A87DB /* ViewController.swift in Sources */,
+				379B85A11FEC7022005A87DB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379B85AD1FEC7022005A87DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379B85B61FEC7022005A87DB /* System_Sound_ID_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		379B85B81FEC7022005A87DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379B85C11FEC7022005A87DB /* System_Sound_ID_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		379B85B31FEC7022005A87DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379B859C1FEC7022005A87DB /* System Sound ID Finder */;
+			targetProxy = 379B85B21FEC7022005A87DB /* PBXContainerItemProxy */;
+		};
+		379B85BE1FEC7022005A87DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 379B859C1FEC7022005A87DB /* System Sound ID Finder */;
+			targetProxy = 379B85BD1FEC7022005A87DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		379B85A41FEC7022005A87DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379B85A51FEC7022005A87DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		379B85A91FEC7022005A87DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				379B85AA1FEC7022005A87DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		379B85C31FEC7022005A87DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		379B85C41FEC7022005A87DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		379B85C61FEC7022005A87DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z34V586TX6;
+				INFOPLIST_FILE = "System Sound ID Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chisookim.System-Sound-ID-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		379B85C71FEC7022005A87DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z34V586TX6;
+				INFOPLIST_FILE = "System Sound ID Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chisookim.System-Sound-ID-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		379B85C91FEC7022005A87DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z34V586TX6;
+				INFOPLIST_FILE = "System Sound ID FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chisookim.System-Sound-ID-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/System Sound ID Finder.app/System Sound ID Finder";
+			};
+			name = Debug;
+		};
+		379B85CA1FEC7022005A87DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z34V586TX6;
+				INFOPLIST_FILE = "System Sound ID FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chisookim.System-Sound-ID-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/System Sound ID Finder.app/System Sound ID Finder";
+			};
+			name = Release;
+		};
+		379B85CC1FEC7022005A87DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z34V586TX6;
+				INFOPLIST_FILE = "System Sound ID FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chisookim.System-Sound-ID-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "System Sound ID Finder";
+			};
+			name = Debug;
+		};
+		379B85CD1FEC7022005A87DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z34V586TX6;
+				INFOPLIST_FILE = "System Sound ID FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chisookim.System-Sound-ID-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "System Sound ID Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		379B85981FEC7022005A87DB /* Build configuration list for PBXProject "System Sound ID Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379B85C31FEC7022005A87DB /* Debug */,
+				379B85C41FEC7022005A87DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379B85C51FEC7022005A87DB /* Build configuration list for PBXNativeTarget "System Sound ID Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379B85C61FEC7022005A87DB /* Debug */,
+				379B85C71FEC7022005A87DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379B85C81FEC7022005A87DB /* Build configuration list for PBXNativeTarget "System Sound ID FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379B85C91FEC7022005A87DB /* Debug */,
+				379B85CA1FEC7022005A87DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		379B85CB1FEC7022005A87DB /* Build configuration list for PBXNativeTarget "System Sound ID FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379B85CC1FEC7022005A87DB /* Debug */,
+				379B85CD1FEC7022005A87DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379B85951FEC7022005A87DB /* Project object */;
+}
