@@ -16,10 +16,60 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     var soundPickerData = [String]()
     var soundPickerDictionary = [String: UInt32]()
-    
+	
+	var systemSoundIdPlaying: SystemSoundID?
+	
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        getSoundIDList()
+        soundIdLabel.text = "???"
+        
+        self.soundPicker.dataSource = self
+        self.soundPicker.delegate = self
+        
+    }
+	
+    func playSound(soundID: UInt32) {
+		systemSoundIdPlaying = soundID
+        AudioServicesPlaySystemSound(systemSoundIdPlaying!)
+    }
+    
+	// MARKER: - UIPickerView data source methods
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return soundPickerData.count
+    }
+	
+	// MARKER: - UIPickerView delegate methods
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return soundPickerData[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
+        let label = UILabel()
+        label.font = UIFont(name: "System", size: 20)
+        label.text = soundPickerData[row]
+        label.textAlignment = .center
+        
+        return label
+    }
+	
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+		if let systemSoundIdPlaying = systemSoundIdPlaying {
+			AudioServicesDisposeSystemSoundID(systemSoundIdPlaying)
+		}
+		
+        let soundIdNumber = soundPickerDictionary[soundPickerData[row]]!
+        soundIdLabel.text = String(soundIdNumber)
+        playSound(soundID: soundIdNumber)
+        
+    }
+    
+    func getSoundIDList() {
         soundPickerDictionary = ["MailReceived": 1000, "MailSent": 1001, "VoicemailReceived": 1002,
                                  "SMSReceived": 1003, "SMSSent": 1004, "CalendarAlert": 1005,
                                  "LowPower": 1006, "SMSReceived_Alert1": 1007, "SMSReceived_Alert2": 1008,
@@ -77,53 +127,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                                  "SilentVibeChanged": 1351, "Vibrate": 4095
         ]
         soundPickerData = Array(soundPickerDictionary.keys).sorted()
-        
-        soundIdLabel.text = "???"
-        
-        self.soundPicker.dataSource = self
-        self.soundPicker.delegate = self
-        
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    
-    func playSound(soundID: UInt32) {
-        let systemSoundId: SystemSoundID = soundID
-        AudioServicesPlaySystemSound(systemSoundId)
-    }
-    
-    // UIPickerViewDataSource methods
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return soundPickerData.count
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return soundPickerData[row]
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
-        let label = UILabel()
-        label.font = UIFont(name: "System", size: 20)
-        label.text = soundPickerData[row]
-        label.textAlignment = .center
-        
-        return label
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        let soundIdNumber = soundPickerDictionary[soundPickerData[row]]!
-        
-        soundIdLabel.text = String(soundIdNumber)
-        playSound(soundID: soundIdNumber)
-        
     }
 }
 
